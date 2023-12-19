@@ -35,7 +35,7 @@ public class Laptop {
         return color;
     }
 
-    @Override
+   
     public String toString() {
         return "Ноутбук = '" + brand + "', ОЗУ = " + ram + ", Объем ЖД = " + storage + ", Операционная система = '"
                 + operatingSystem + "', Цвет = '" + color + "'";
